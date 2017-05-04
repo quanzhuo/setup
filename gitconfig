@@ -1,0 +1,6 @@
+git config --global user.name "Quan Zhuo"
+git config --global user.email "zhuo.quan@outlook.com"
+
+git config --global alias.st status
+git config --global alias.graph "log --graph --oneline --all --decorate"
+git config --global core.editor vim

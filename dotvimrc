@@ -1,0 +1,7 @@
+set nu
+set hlsearch
+set autoindent
+set ruler
+set showmode
+set bg=dark
+syntax on
