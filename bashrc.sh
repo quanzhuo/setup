@@ -27,3 +27,4 @@ alias ll='ls --color=auto -l -h'
 alias emacs='emacs -nw'
 alias grep='grep --color=auto'
 alias l='ls -CF'
+alias lsuser="awk -F: '{if(\$3 >= 1000 && \$3 <= 2000) print \$1}' /etc/passwd"
