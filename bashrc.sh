@@ -20,6 +20,7 @@ export OPENGROK_GENERATE_HISTORY=off
 export OPENGROK_SCAN_REPOS=false
 export OPENGROK_VERBOSE=true
 export OPENGROK_PROGRESS=true
+export IGNORE_PATTERNS="-i d:out"
 
 # aliases
 alias ls='ls --color=auto'
